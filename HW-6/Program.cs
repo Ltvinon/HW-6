@@ -19,6 +19,7 @@ class Program
         Console.WriteLine($"Число {number} містить {digitCount} цифр."); // Виведе "Число 11113 містить 5 цифр."
 
         string str = "Hello, world!";
+        Console.WriteLine($"Вхідний рядок : {str}");
         char result;
         GetCharacterAt(str, 4, out result);
         Console.WriteLine($"Символ у позиції 4: {result}"); // Виведе "Символ у позиції 4: o"
